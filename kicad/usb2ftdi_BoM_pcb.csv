@@ -1,0 +1,9 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"J2";"USB_Mini-B";1;"USB-Mini";;;
+2;"Z4,Z3";"Logo_silk_OSHW_6x6mm";2;"CONN_1";;;
+3;"Z2,Z1";"Logo-WL3";2;"CONN_1";;;
+4;"P1";"Screw_3mm";1;"CONN_1";;;
+5;"J1";"USB_B_Micro";1;"USB-Micro";;;
+6;"C1";"C1";1;"100n";;;
+7;"H1";"Socket_Strip_Angled_1x06";1;"FTDI";;;
+8;"J3";"USB_B";1;"USB-B";;;

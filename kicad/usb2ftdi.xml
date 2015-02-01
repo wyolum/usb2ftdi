@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/samata/projects-git/usb2ftdi/kicad/usb2ftdi.sch</source>
+    <date>Sunday 01 February 2015 05:20:00 PM IST</date>
+    <tool>Eeschema 0.201501310101+5397~21~ubuntu14.10.1-product</tool>
+  </design>
+  <components>
+    <comp ref="P1">
+      <value>CONN_1</value>
+      <footprint>usb2ftdi:Screw_3mm</footprint>
+      <libsource lib="usb2ftdi" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54CD2EA3</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>100n</value>
+      <footprint>usb2ftdi:C1</footprint>
+      <libsource lib="usb2ftdi" part="C_CPL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54CD2EEF</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>FTDI</value>
+      <footprint>usb2ftdi:Socket_Strip_Angled_1x06</footprint>
+      <libsource lib="usb2ftdi" part="CONN_6"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54CD2EF6</tstamp>
+    </comp>
+    <comp ref="Z3">
+      <value>CONN_1</value>
+      <footprint>usb2ftdi:Logo_silk_OSHW_6x6mm</footprint>
+      <libsource lib="usb2ftdi" part="SCREW"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54CD2FD1</tstamp>
+    </comp>
+    <comp ref="Z4">
+      <value>CONN_1</value>
+      <footprint>usb2ftdi:Logo_silk_OSHW_6x6mm</footprint>
+      <libsource lib="usb2ftdi" part="SCREW"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54CD2FDB</tstamp>
+    </comp>
+    <comp ref="Z2">
+      <value>CONN_1</value>
+      <footprint>usb2ftdi:Logo-WL3</footprint>
+      <libsource lib="usb2ftdi" part="SCREW"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54CD2FE4</tstamp>
+    </comp>
+    <comp ref="Z1">
+      <value>CONN_1</value>
+      <footprint>usb2ftdi:Logo-WL3</footprint>
+      <libsource lib="usb2ftdi" part="SCREW"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54CD2FEB</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>USB-Micro</value>
+      <footprint>usb2ftdi:USB_B_Micro</footprint>
+      <libsource lib="usb2ftdi" part="USB-Micro"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54CD2F68</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>USB-Mini</value>
+      <footprint>usb2ftdi:USB_Mini-B</footprint>
+      <libsource lib="usb2ftdi" part="USB-Mini"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54CD27B4</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>USB-B</value>
+      <footprint>usb2ftdi:USB_B</footprint>
+      <libsource lib="usb2ftdi" part="USB-B"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54CD2924</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="usb2ftdi" part="CONN_1">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="usb2ftdi" part="CONN_6">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="usb2ftdi" part="C_CPL">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_CPL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="usb2ftdi" part="SCREW">
+      <fields>
+        <field name="Reference">SC</field>
+        <field name="Value">SCREW</field>
+      </fields>
+    </libpart>
+    <libpart lib="usb2ftdi" part="USB-B">
+      <footprints>
+        <fp>USB-Mini-B-Jack</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">CON</field>
+        <field name="Value">USB-B</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_in"/>
+        <pin num="2" name="D-" type="BiDi"/>
+        <pin num="3" name="D+" type="BiDi"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="T1" type="passive"/>
+        <pin num="6" name="T2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="usb2ftdi" part="USB-Micro">
+      <footprints>
+        <fp>USB-Mini-B-Jack</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">CON</field>
+        <field name="Value">USB-Micro</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_in"/>
+        <pin num="2" name="D-" type="BiDi"/>
+        <pin num="3" name="D+" type="BiDi"/>
+        <pin num="4" name="ID" type="BiDi"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="T1" type="passive"/>
+        <pin num="7" name="T2" type="passive"/>
+        <pin num="8" name="T3" type="passive"/>
+        <pin num="9" name="T4" type="passive"/>
+        <pin num="10" name="T5" type="input"/>
+        <pin num="11" name="T6" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="usb2ftdi" part="USB-Mini">
+      <footprints>
+        <fp>USB-Mini-B-Jack</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">CON</field>
+        <field name="Value">USB-Mini</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_in"/>
+        <pin num="2" name="D-" type="BiDi"/>
+        <pin num="3" name="D+" type="BiDi"/>
+        <pin num="4" name="ID" type="BiDi"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="T1" type="passive"/>
+        <pin num="7" name="T2" type="passive"/>
+        <pin num="8" name="T3" type="passive"/>
+        <pin num="9" name="T4" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="usb2ftdi">
+      <uri>/home/samata/projects-git/usb2ftdi/kicad/usb2ftdi.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(J2-Pad4)">
+      <node ref="J2" pin="4"/>
+    </net>
+    <net code="2" name="/V_USB">
+      <node ref="J2" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="H1" pin="3"/>
+      <node ref="J3" pin="1"/>
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="3" name="Net-(J2-Pad3)">
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="4" name="Net-(J2-Pad2)">
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="5" name="GND">
+      <node ref="C1" pin="2"/>
+      <node ref="H1" pin="1"/>
+      <node ref="H1" pin="2"/>
+      <node ref="J1" pin="10"/>
+      <node ref="J1" pin="5"/>
+      <node ref="J1" pin="7"/>
+      <node ref="J1" pin="8"/>
+      <node ref="J1" pin="9"/>
+      <node ref="J1" pin="11"/>
+      <node ref="J1" pin="6"/>
+      <node ref="J2" pin="5"/>
+      <node ref="J2" pin="6"/>
+      <node ref="J2" pin="7"/>
+      <node ref="J2" pin="8"/>
+      <node ref="J2" pin="9"/>
+      <node ref="J3" pin="4"/>
+      <node ref="J3" pin="6"/>
+      <node ref="J3" pin="5"/>
+    </net>
+    <net code="6" name="Net-(J3-Pad3)">
+      <node ref="J3" pin="3"/>
+    </net>
+    <net code="7" name="Net-(J3-Pad2)">
+      <node ref="J3" pin="2"/>
+    </net>
+    <net code="8" name="Net-(H1-Pad6)">
+      <node ref="H1" pin="6"/>
+    </net>
+    <net code="9" name="Net-(H1-Pad5)">
+      <node ref="H1" pin="5"/>
+    </net>
+    <net code="10" name="Net-(H1-Pad4)">
+      <node ref="H1" pin="4"/>
+    </net>
+    <net code="12" name="Net-(P1-Pad1)">
+      <node ref="P1" pin="1"/>
+    </net>
+    <net code="13" name="Net-(J1-Pad4)">
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="14" name="Net-(J1-Pad3)">
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="15" name="Net-(J1-Pad2)">
+      <node ref="J1" pin="2"/>
+    </net>
+  </nets>
+</export>

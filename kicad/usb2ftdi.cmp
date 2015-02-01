@@ -1,94 +1,80 @@
-Cmp-Mod V01 Created by Cvpcb 0.201501310101+5397~21~ubuntu14.10.1-product   date = Sunday 01 February 2015 01:37:23 AM IST
+Cmp-Mod V01 Created by Cvpcb 0.201501310101+5397~21~ubuntu14.10.1-product   date = Sunday 01 February 2015 03:32:37 PM IST
 
 BeginCmp
 TimeStamp = /54CD2EEF;
 Reference = C1;
 ValeurCmp = 100n;
-IdModule  = Capacitors_ThroughHole:Capacitor3MMDiscRM2.5;
+IdModule  = usb2ftdi:C1;
 EndCmp
 
 BeginCmp
 TimeStamp = /54CD2EF6;
 Reference = H1;
 ValeurCmp = FTDI;
-IdModule  = Pin_Headers:Pin_Header_Angled_1x06;
+IdModule  = usb2ftdi:Socket_Strip_Angled_1x06;
 EndCmp
 
 BeginCmp
 TimeStamp = /54CD2F68;
 Reference = J1;
 ValeurCmp = USB-Micro;
-IdModule  = Connect:USB_Micro-B;
+IdModule  = usb2ftdi:USB_B_Micro;
 EndCmp
 
 BeginCmp
 TimeStamp = /54CD27B4;
 Reference = J2;
 ValeurCmp = USB-Mini;
-IdModule  = Connect:USB_Mini-B;
+IdModule  = usb2ftdi:USB_Mini-B;
 EndCmp
 
 BeginCmp
 TimeStamp = /54CD2924;
 Reference = J3;
 ValeurCmp = USB-B;
-IdModule  = Connect:USB_B;
+IdModule  = usb2ftdi:USB_B;
 EndCmp
 
 BeginCmp
 TimeStamp = /54CD2EA3;
 Reference = P1;
 ValeurCmp = CONN_1;
-IdModule  = Connect:1pin;
+IdModule  = usb2ftdi:Screw_3mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /54CD2E9C;
 Reference = P2;
 ValeurCmp = CONN_1;
-IdModule  = Connect:1pin;
-EndCmp
-
-BeginCmp
-TimeStamp = /54CD2F79;
-Reference = P3;
-ValeurCmp = CONN_1;
-IdModule  = Connect:1pin;
-EndCmp
-
-BeginCmp
-TimeStamp = /54CD2F80;
-Reference = P4;
-ValeurCmp = CONN_1;
-IdModule  = Connect:1pin;
+IdModule  = usb2ftdi:Screw_3mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /54CD2FEB;
 Reference = Z1;
 ValeurCmp = CONN_1;
-IdModule  = Pin_Arrays:pin_array_1x01;
+IdModule  = usb2ftdi:Logo-WL3;
 EndCmp
 
 BeginCmp
 TimeStamp = /54CD2FE4;
 Reference = Z2;
 ValeurCmp = CONN_1;
-IdModule  = Pin_Arrays:pin_array_1x01;
+IdModule  = usb2ftdi:Logo-WL3;
 EndCmp
 
 BeginCmp
 TimeStamp = /54CD2FD1;
 Reference = Z3;
 ValeurCmp = CONN_1;
-IdModule  = Pin_Arrays:pin_array_1x01;
+IdModule  = usb2ftdi:Logo_silk_OSHW_6x6mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /54CD2FDB;
 Reference = Z4;
 ValeurCmp = CONN_1;
-IdModule  = Pin_Arrays:pin_array_1x01;
+IdModule  = usb2ftdi:Logo_silk_OSHW_6x6mm;
 EndCmp
 
 EndListe

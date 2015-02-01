@@ -1,0 +1,11 @@
+Reference, Value, Footprint, Datasheet
+P1,CONN_1,usb2ftdi:Screw_3mm,
+C1,100n,usb2ftdi:C1,
+H1,FTDI,usb2ftdi:Socket_Strip_Angled_1x06,
+Z3,CONN_1,usb2ftdi:Logo_silk_OSHW_6x6mm,
+Z4,CONN_1,usb2ftdi:Logo_silk_OSHW_6x6mm,
+Z2,CONN_1,usb2ftdi:Logo-WL3,
+Z1,CONN_1,usb2ftdi:Logo-WL3,
+J1,USB-Micro,usb2ftdi:USB_B_Micro,
+J2,USB-Mini,usb2ftdi:USB_Mini-B,
+J3,USB-B,usb2ftdi:USB_B,
